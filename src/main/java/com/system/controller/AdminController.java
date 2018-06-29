@@ -45,7 +45,7 @@ public class AdminController {
         List<StudentCustom> list = null;
         //页码对象 你看，新的注释
         PagingVO pagingVO = new PagingVO();
-        //设置总页数
+        //设置总页数设置总页数
         pagingVO.setTotalCount(studentService.getCountStudent());
         if (page == null || page == 0) {
             pagingVO.setToPageNo(1);
