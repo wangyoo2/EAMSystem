@@ -43,7 +43,7 @@ public class AdminController {
     public String showStudent(Model model, Integer page) throws Exception {
 
         List<StudentCustom> list = null;
-        //页码对象
+        //页码对象hahahahahahaha
         PagingVO pagingVO = new PagingVO();
         //设置总页数
         pagingVO.setTotalCount(studentService.getCountStudent());
